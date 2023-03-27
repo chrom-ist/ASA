@@ -2,7 +2,7 @@
 
 namespace app\Models;
 
-class Publications
+class Publication
 {
     protected $table = 'Publications';
 }
