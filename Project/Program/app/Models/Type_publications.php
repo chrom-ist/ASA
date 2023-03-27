@@ -4,5 +4,5 @@ namespace app\Models;
 
 class Type_publications
 {
-    protected $table = 'TypePublications';
+    protected $table = 'Type_publications';
 }
