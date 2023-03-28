@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapp_1_1_controllers_1_1_faculty_controller" xml:lang="ru">
+<title>Класс FacultyController</title>
+<indexterm><primary>FacultyController</primary></indexterm>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347">index</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a9ef485163104597c12185b53cdacf638">store</link> (Request $request)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a6f1b3ee65ca57cb9e521fd728d51543c">edit</link> (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a24fbe40bd0a4b52b2f041c980d984d5b">update</link> (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a0ce1359fcbbd0825e57dcaf7c73d8429">destroy</link> (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347">index</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1acc2002017f382e3a90a2b9d5caa0d8ad">store</link> (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a05fab2ea802e53ebac2b273ef6d839cd">edit</link> (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1aa8d3e182f17df9f8861f4606a906f590">update</link> (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_faculty_controller_1a13cd35dd21b77791fa2e9d76c53afbf4">destroy</link> (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Контроллер сущности Факультет.</para>
+
+<para>Это класс контроллер сущности Факультет, он отвечает за обработку запросов связанных с изменением данных в таблице Факультет. </para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00014">14</link></para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>create</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para>
+<para>Выводит форму для создания нового факультета</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>Response </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00032">32</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>create</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00014">14</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a0ce1359fcbbd0825e57dcaf7c73d8429"/><section>
+    <title>destroy()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>destroy</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</computeroutput></para>
+<para>Удаляет данные о факультете из БД</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Department</entry><entry>$department</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Возвращает</title>
+
+<para>void </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00077">77</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a13cd35dd21b77791fa2e9d76c53afbf4"/><section>
+    <title>destroy()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>destroy</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00034">34</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a6f1b3ee65ca57cb9e521fd728d51543c"/><section>
+    <title>edit()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>edit</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</computeroutput></para>
+<para>Показывает форму редактирования факультета</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Department</entry><entry>$department</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Возвращает</title>
+
+<para>Response </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00055">55</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a05fab2ea802e53ebac2b273ef6d839cd"/><section>
+    <title>edit()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>edit</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00024">24</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347"/><section>
+    <title>index()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>index</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>index ( )</computeroutput></para>
+<para>Выводит список факультетов.</para>
+
+<para><formalpara><title>Возвращает</title>
+
+<para>\Illuminate\Http\Response </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00022">22</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347"/><section>
+    <title>index()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>index</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>index ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00009">9</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1acc2002017f382e3a90a2b9d5caa0d8ad"/><section>
+    <title>store()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>store</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00019">19</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a9ef485163104597c12185b53cdacf638"/><section>
+    <title>store()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>store</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (Request $request)</computeroutput></para>
+<para>Сохраняет запись о новом факультете в БД.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Request</entry><entry>$request</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Возвращает</title>
+
+<para>Response </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00043">43</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1a24fbe40bd0a4b52b2f041c980d984d5b"/><section>
+    <title>update()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>update</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link> $faculty)</computeroutput></para>
+<para>Изменяет данные о факультете в БД.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Аргументы</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>Department</entry><entry>$department</entry><entry>
+<para></para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Возвращает</title>
+
+<para>void </para>
+</formalpara>
+</para>
+<para>
+См. определение в файле <link linkend="__faculty_contreller_8php_source">FacultyContreller.php</link> строка <link linkend="__faculty_contreller_8php_source_1l00066">66</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_faculty_controller_1aa8d3e182f17df9f8861f4606a906f590"/><section>
+    <title>update()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>update</primary><secondary>FacultyController</secondary></indexterm>
+<indexterm><primary>FacultyController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_classapp_1_1_models_1_1_publication">Publication</link> $publication)</computeroutput></para><para>
+См. определение в файле <link linkend="__publication_controller_8php_source">PublicationController.php</link> строка <link linkend="__publication_controller_8php_source_1l00029">29</link></para>
+</section>
+<para>
+Объявления и описания членов классов находятся в файлах:</para>
+app/Controllers/FacultyContreller.phpapp/Controllers/PublicationController.php</section>
+</section>

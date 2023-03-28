@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapp_1_1_models_1_1_publication" xml:lang="ru">
+<title>Класс Publication</title>
+<indexterm><primary>Publication</primary></indexterm>
+<simplesect>
+    <title>Защищенные данные    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapp_1_1_models_1_1_publication_1ae8876a14058f368335baccf35af4a22b">$table</link> = &apos;Publications&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Модель сущности Публикация.</para>
+
+<para>Описывает поля и методы используемые для хранения и управления данными о публикации. </para>
+<para>
+См. определение в файле <link linkend="__publications_8php_source">Publications.php</link> строка <link linkend="__publications_8php_source_1l00012">12</link></para>
+</section>
+<section>
+<title>Поля</title>
+<anchor xml:id="_classapp_1_1_models_1_1_publication_1ae8876a14058f368335baccf35af4a22b"/><section>
+    <title>$table</title>
+<indexterm><primary>$table</primary><secondary>Publication</secondary></indexterm>
+<indexterm><primary>Publication</primary><secondary>$table</secondary></indexterm>
+<para><computeroutput>$table = &apos;Publications&apos;<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+См. определение в файле <link linkend="__publications_8php_source">Publications.php</link> строка <link linkend="__publications_8php_source_1l00019">19</link></para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+app/Models/Publications.php</section>
+</section>

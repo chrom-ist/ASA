@@ -1,0 +1,144 @@
+\doxysection{Класс Lecturer\+Controller}
+\label{classapp_1_1_controllers_1_1_lecturer_controller}\index{LecturerController@{LecturerController}}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ index} ()
+\item 
+\textbf{ create} ()
+\item 
+\textbf{ store} (\textbf{ Lecturer} \$lecturer)
+\item 
+\textbf{ edit} (\textbf{ Lecturer} \$lecturer)
+\item 
+\textbf{ update} (\textbf{ Lecturer} \$lecturer)
+\item 
+\textbf{ destroy} (\textbf{ Lecturer} \$lecturer)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Контроллер сущности Преподаватель.
+
+Это класс контроллер сущности Перподаватель, он отвечает за обработку запросов связанных с изменением данных в таблице Преподаватель. 
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 14}
+
+
+
+\doxysubsection{Методы}
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_a435e7d7525d4bcd0ed5e34a469f3adf6}} 
+\index{LecturerController@{LecturerController}!create@{create}}
+\index{create@{create}!LecturerController@{LecturerController}}
+\doxysubsubsection{create()}
+{\footnotesize\ttfamily create (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Выводит форму для создания записи о новом преподавателе
+
+\begin{DoxyReturn}{Возвращает}
+Response 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 32}
+
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_a5fa627f28c0b868fc604e31872823266}} 
+\index{LecturerController@{LecturerController}!destroy@{destroy}}
+\index{destroy@{destroy}!LecturerController@{LecturerController}}
+\doxysubsubsection{destroy()}
+{\footnotesize\ttfamily destroy (\begin{DoxyParamCaption}\item[{\textbf{ Lecturer}}]{\$lecturer }\end{DoxyParamCaption})}
+
+Удаляет данные о преподавателе из БД
+
+
+\begin{DoxyParams}[1]{Аргументы}
+Department & {\em \$department} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+void 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 76}
+
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_aef518b84e7cd3ec8b14a97c1ecf9f5f9}} 
+\index{LecturerController@{LecturerController}!edit@{edit}}
+\index{edit@{edit}!LecturerController@{LecturerController}}
+\doxysubsubsection{edit()}
+{\footnotesize\ttfamily edit (\begin{DoxyParamCaption}\item[{\textbf{ Lecturer}}]{\$lecturer }\end{DoxyParamCaption})}
+
+Показывает форму редактирования записи преподавателе
+
+
+\begin{DoxyParams}[1]{Аргументы}
+Department & {\em \$department} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Response 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 54}
+
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_a149eb92716c1084a935e04a8d95f7347}} 
+\index{LecturerController@{LecturerController}!index@{index}}
+\index{index@{index}!LecturerController@{LecturerController}}
+\doxysubsubsection{index()}
+{\footnotesize\ttfamily index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Выводит список преподавателей.
+
+\begin{DoxyReturn}{Возвращает}
+\textbackslash{}\+Illuminate\textbackslash{}\+Http\textbackslash{}\+Response 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 22}
+
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_a11e3ba0b19c66fe5420010c81a25c29d}} 
+\index{LecturerController@{LecturerController}!store@{store}}
+\index{store@{store}!LecturerController@{LecturerController}}
+\doxysubsubsection{store()}
+{\footnotesize\ttfamily store (\begin{DoxyParamCaption}\item[{\textbf{ Lecturer}}]{\$lecturer }\end{DoxyParamCaption})}
+
+Сохраняет запись о новом преподавателе в БД.
+
+
+\begin{DoxyParams}[1]{Аргументы}
+Request & {\em \$request} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Response 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 43}
+
+\mbox{\label{classapp_1_1_controllers_1_1_lecturer_controller_aac9ec90d59a95895ef6b1fcb84bf48a2}} 
+\index{LecturerController@{LecturerController}!update@{update}}
+\index{update@{update}!LecturerController@{LecturerController}}
+\doxysubsubsection{update()}
+{\footnotesize\ttfamily update (\begin{DoxyParamCaption}\item[{\textbf{ Lecturer}}]{\$lecturer }\end{DoxyParamCaption})}
+
+Изменяет данные о преподавателе в БД.
+
+
+\begin{DoxyParams}[1]{Аргументы}
+Department & {\em \$department} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+void 
+\end{DoxyReturn}
+
+
+См. определение в файле \textbf{ Lecturer\+Controller.\+php} строка \textbf{ 65}
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+app/\+Controllers/Lecturer\+Controller.\+php\end{DoxyCompactItemize}

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="classapp_1_1_models_1_1_type__publications" kind="class" language="PHP" prot="public">
+    <compoundname>app::Models::Type_publications</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classapp_1_1_models_1_1_type__publications_1ae8876a14058f368335baccf35af4a22b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>app\Models\Type_publications\$table</qualifiedname>
+        <initializer>= &apos;<ref refid="classapp_1_1_models_1_1_type__publications" kindref="compound">Type_publications</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Type_publications.php" line="21" column="15" bodyfile="app/Models/Type_publications.php" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Типы публикаций</para>
+<para>Класс описывает сущность типа публикации.</para>
+<para><simplesect kind="author"><para>Kovalenko Alexander <ulink url="mailto:ilondontami@gmail.com">ilondontami@gmail.com</ulink> </para>
+</simplesect>
+<simplesect kind="version"><para>1.0.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="app/Models/Type_publications.php" line="14" column="1" bodyfile="app/Models/Type_publications.php" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="classapp_1_1_models_1_1_type__publications_1ae8876a14058f368335baccf35af4a22b" prot="protected" virt="non-virtual"><scope>app::Models::Type_publications</scope><name>$table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

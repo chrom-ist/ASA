@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_c6cbba4d06f9e86bffe3b8ab3f53e776" kind="dir">
+    <compoundname>app/Views/department</compoundname>
+    <innerfile refid="department_2create_8php">create.php</innerfile>
+    <innerfile refid="department_2edit_8php">edit.php</innerfile>
+    <innerfile refid="department_2index_8php">index.php</innerfile>
+    <innerfile refid="department_2show_8php">show.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Views/department/"/>
+  </compounddef>
+</doxygen>

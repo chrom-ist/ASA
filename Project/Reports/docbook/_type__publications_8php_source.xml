@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__type__publications_8php_source" xml:lang="ru">
+<title>Type_publications.php</title>
+<indexterm><primary>app/Models/Type_publications.php</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__type__publications_8php_source_1l00001"/>00001 &lt;?php
+<anchor xml:id="__type__publications_8php_source_1l00002"/>00002 
+<anchor xml:id="__type__publications_8php_source_1l00003"/>00003 <emphasis role="keyword">namespace&#32;</emphasis>app\Models;
+<anchor xml:id="__type__publications_8php_source_1l00004"/>00004 
+<anchor xml:id="__type__publications_8php_source_1l00005"/>00005 
+<anchor xml:id="__type__publications_8php_source_1l00014"/><link linkend="_classapp_1_1_models_1_1_type__publications">00014</link> <emphasis role="keyword">class&#32;</emphasis><link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link>
+<anchor xml:id="__type__publications_8php_source_1l00015"/>00015 {
+<anchor xml:id="__type__publications_8php_source_1l00021"/>00021 &#32;&#32;&#32;&#32;<emphasis role="keyword">protected</emphasis>&#32;$table&#32;=&#32;<emphasis role="stringliteral">&apos;Type_publications&apos;</emphasis>;
+<anchor xml:id="__type__publications_8php_source_1l00022"/>00022 }
+</programlisting></section>

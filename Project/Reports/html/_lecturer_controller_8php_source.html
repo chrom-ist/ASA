@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Accounting-of-scientific-activity: Исходный файл app/Controllers/LecturerController.php</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="техзадание.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Accounting-of-scientific-activity<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">Система для учета научной деятельности преподавателей ВУЗа</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_lecturer_controller_8php_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">LecturerController.php</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span>&lt;?php</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span>app\Controllers;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>use <a class="code hl_class" href="classapp_1_1_models_1_1_lecturer.html">app\Models\Lecturer</a>;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="classapp_1_1_controllers_1_1_lecturer_controller.html">LecturerController</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a149eb92716c1084a935e04a8d95f7347">   22</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a149eb92716c1084a935e04a8d95f7347">index</a>()</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    }</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a435e7d7525d4bcd0ed5e34a469f3adf6">   32</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a435e7d7525d4bcd0ed5e34a469f3adf6">create</a>()</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a11e3ba0b19c66fe5420010c81a25c29d">   43</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a11e3ba0b19c66fe5420010c81a25c29d">store</a>(<a class="code hl_class" href="classapp_1_1_models_1_1_lecturer.html">Lecturer</a> $lecturer)</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#aef518b84e7cd3ec8b14a97c1ecf9f5f9">   54</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#aef518b84e7cd3ec8b14a97c1ecf9f5f9">edit</a>(<a class="code hl_class" href="classapp_1_1_models_1_1_lecturer.html">Lecturer</a> $lecturer)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    {</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    }</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#aac9ec90d59a95895ef6b1fcb84bf48a2">   65</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#aac9ec90d59a95895ef6b1fcb84bf48a2">update</a>(<a class="code hl_class" href="classapp_1_1_models_1_1_lecturer.html">Lecturer</a> $lecturer)</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a5fa627f28c0b868fc604e31872823266">   76</a></span>    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code hl_function" href="classapp_1_1_controllers_1_1_lecturer_controller.html#a5fa627f28c0b868fc604e31872823266">destroy</a>(<a class="code hl_class" href="classapp_1_1_models_1_1_lecturer.html">Lecturer</a> $lecturer)</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    {</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    }</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html">app\Controllers\LecturerController</a></div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00014">LecturerController.php:15</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_a11e3ba0b19c66fe5420010c81a25c29d"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#a11e3ba0b19c66fe5420010c81a25c29d">app\Controllers\LecturerController\store</a></div><div class="ttdeci">store(Lecturer $lecturer)</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00043">LecturerController.php:43</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_a149eb92716c1084a935e04a8d95f7347"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#a149eb92716c1084a935e04a8d95f7347">app\Controllers\LecturerController\index</a></div><div class="ttdeci">index()</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00022">LecturerController.php:22</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_a435e7d7525d4bcd0ed5e34a469f3adf6"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#a435e7d7525d4bcd0ed5e34a469f3adf6">app\Controllers\LecturerController\create</a></div><div class="ttdeci">create()</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00032">LecturerController.php:32</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_a5fa627f28c0b868fc604e31872823266"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#a5fa627f28c0b868fc604e31872823266">app\Controllers\LecturerController\destroy</a></div><div class="ttdeci">destroy(Lecturer $lecturer)</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00076">LecturerController.php:76</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_aac9ec90d59a95895ef6b1fcb84bf48a2"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#aac9ec90d59a95895ef6b1fcb84bf48a2">app\Controllers\LecturerController\update</a></div><div class="ttdeci">update(Lecturer $lecturer)</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00065">LecturerController.php:65</a></div></div>
+<div class="ttc" id="aclassapp_1_1_controllers_1_1_lecturer_controller_html_aef518b84e7cd3ec8b14a97c1ecf9f5f9"><div class="ttname"><a href="classapp_1_1_controllers_1_1_lecturer_controller.html#aef518b84e7cd3ec8b14a97c1ecf9f5f9">app\Controllers\LecturerController\edit</a></div><div class="ttdeci">edit(Lecturer $lecturer)</div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_controller_8php_source.html#l00054">LecturerController.php:54</a></div></div>
+<div class="ttc" id="aclassapp_1_1_models_1_1_lecturer_html"><div class="ttname"><a href="classapp_1_1_models_1_1_lecturer.html">app\Models\Lecturer</a></div><div class="ttdef"><b>Definition:</b> <a href="_lecturer_8php_source.html#l00012">Lecturer.php:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d422163b96683743ed3963d4aac17747.html">app</a></li><li class="navelem"><a class="el" href="dir_db1e46b69611da9e51496a26f1a8ca7b.html">Controllers</a></li><li class="navelem"><b>LecturerController.php</b></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="namespaceapp_1_1_models" kind="namespace" language="PHP">
+    <compoundname>app::Models</compoundname>
+    <innerclass refid="classapp_1_1_models_1_1_department" prot="public">app::Models::Department</innerclass>
+    <innerclass refid="classapp_1_1_models_1_1_faculty" prot="public">app::Models::Faculty</innerclass>
+    <innerclass refid="classapp_1_1_models_1_1_lecturer" prot="public">app::Models::Lecturer</innerclass>
+    <innerclass refid="classapp_1_1_models_1_1_post" prot="public">app::Models::Post</innerclass>
+    <innerclass refid="classapp_1_1_models_1_1_publication" prot="public">app::Models::Publication</innerclass>
+    <innerclass refid="classapp_1_1_models_1_1_type__publications" prot="public">app::Models::Type_publications</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Models/Department.php" line="3" column="10"/>
+  </compounddef>
+</doxygen>

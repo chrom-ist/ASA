@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_fc6199fba97859a095e1d9a5aa5fae23" kind="dir">
+    <compoundname>app/Models</compoundname>
+    <innerfile refid="_department_8php">Department.php</innerfile>
+    <innerfile refid="_faculty_8php">Faculty.php</innerfile>
+    <innerfile refid="_lecturer_8php">Lecturer.php</innerfile>
+    <innerfile refid="_post_8php">Post.php</innerfile>
+    <innerfile refid="_publications_8php">Publications.php</innerfile>
+    <innerfile refid="_type__publications_8php">Type_publications.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Models/"/>
+  </compounddef>
+</doxygen>

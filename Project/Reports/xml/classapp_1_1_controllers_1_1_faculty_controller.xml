@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="classapp_1_1_controllers_1_1_faculty_controller" kind="class" language="PHP" prot="public">
+    <compoundname>app::Controllers::FacultyController</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>app\Controllers\FacultyController\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Выводит список факультетов.</para>
+<para><simplesect kind="return"><para>\Illuminate\Http\Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="22" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>app\Controllers\FacultyController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Выводит форму для создания нового факультета</para>
+<para><simplesect kind="return"><para>Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="32" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a9ef485163104597c12185b53cdacf638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(Request $request)</argsstring>
+        <name>store</name>
+        <qualifiedname>app\Controllers\FacultyController\store</qualifiedname>
+        <param>
+          <type>Request</type>
+          <declname>$request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Сохраняет запись о новом факультете в БД.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Request</parametertype>
+<parametername>$request</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="43" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a6f1b3ee65ca57cb9e521fd728d51543c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit</definition>
+        <argsstring>(Faculty $faculty)</argsstring>
+        <name>edit</name>
+        <qualifiedname>app\Controllers\FacultyController\edit</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_faculty" kindref="compound">Faculty</ref></type>
+          <declname>$faculty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Показывает форму редактирования факультета</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Department</parametertype>
+<parametername>$department</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Response </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="55" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a24fbe40bd0a4b52b2f041c980d984d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Faculty $faculty)</argsstring>
+        <name>update</name>
+        <qualifiedname>app\Controllers\FacultyController\update</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_faculty" kindref="compound">Faculty</ref></type>
+          <declname>$faculty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Изменяет данные о факультете в БД.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Department</parametertype>
+<parametername>$department</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="66" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a0ce1359fcbbd0825e57dcaf7c73d8429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(Faculty $faculty)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>app\Controllers\FacultyController\destroy</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_faculty" kindref="compound">Faculty</ref></type>
+          <declname>$faculty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Удаляет данные о факультете из БД</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>Department</parametertype>
+<parametername>$department</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/FacultyContreller.php" line="77" column="21" bodyfile="app/Controllers/FacultyContreller.php" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>app\Controllers\FacultyController\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="9" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>app\Controllers\FacultyController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="14" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1acc2002017f382e3a90a2b9d5caa0d8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(Publication $publication)</argsstring>
+        <name>store</name>
+        <qualifiedname>app\Controllers\FacultyController\store</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_publication" kindref="compound">Publication</ref></type>
+          <declname>$publication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="19" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a05fab2ea802e53ebac2b273ef6d839cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit</definition>
+        <argsstring>(Publication $publication)</argsstring>
+        <name>edit</name>
+        <qualifiedname>app\Controllers\FacultyController\edit</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_publication" kindref="compound">Publication</ref></type>
+          <declname>$publication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="24" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1aa8d3e182f17df9f8861f4606a906f590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Publication $publication)</argsstring>
+        <name>update</name>
+        <qualifiedname>app\Controllers\FacultyController\update</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_publication" kindref="compound">Publication</ref></type>
+          <declname>$publication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="29" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_faculty_controller_1a13cd35dd21b77791fa2e9d76c53afbf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(Publication $publication)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>app\Controllers\FacultyController\destroy</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_publication" kindref="compound">Publication</ref></type>
+          <declname>$publication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PublicationController.php" line="34" column="21" bodyfile="app/Controllers/PublicationController.php" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Контроллер сущности Факультет.</para>
+<para>Это класс контроллер сущности Факультет, он отвечает за обработку запросов связанных с изменением данных в таблице Факультет. </para>
+    </detaileddescription>
+    <location file="app/Controllers/FacultyContreller.php" line="14" column="1" bodyfile="app/Controllers/FacultyContreller.php" bodystart="15" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>create</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>create</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a0ce1359fcbbd0825e57dcaf7c73d8429" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>destroy</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a13cd35dd21b77791fa2e9d76c53afbf4" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>destroy</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a6f1b3ee65ca57cb9e521fd728d51543c" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>edit</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a05fab2ea802e53ebac2b273ef6d839cd" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>edit</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>index</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>index</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a9ef485163104597c12185b53cdacf638" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>store</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1acc2002017f382e3a90a2b9d5caa0d8ad" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>store</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1a24fbe40bd0a4b52b2f041c980d984d5b" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>update</name></member>
+      <member refid="classapp_1_1_controllers_1_1_faculty_controller_1aa8d3e182f17df9f8861f4606a906f590" prot="public" virt="non-virtual"><scope>app::Controllers::FacultyController</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

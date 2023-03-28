@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__lecturer_controller_8php_source" xml:lang="ru">
+<title>LecturerController.php</title>
+<indexterm><primary>app/Controllers/LecturerController.php</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__lecturer_controller_8php_source_1l00001"/>00001 &lt;?php
+<anchor xml:id="__lecturer_controller_8php_source_1l00002"/>00002 
+<anchor xml:id="__lecturer_controller_8php_source_1l00003"/>00003 <emphasis role="keyword">namespace&#32;</emphasis>app\Controllers;
+<anchor xml:id="__lecturer_controller_8php_source_1l00004"/>00004 
+<anchor xml:id="__lecturer_controller_8php_source_1l00005"/>00005 use&#32;<link linkend="_classapp_1_1_models_1_1_lecturer">app\Models\Lecturer</link>;
+<anchor xml:id="__lecturer_controller_8php_source_1l00006"/>00006 
+<anchor xml:id="__lecturer_controller_8php_source_1l00014"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller">00014</link> <emphasis role="keyword">class&#32;</emphasis><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller">LecturerController</link>
+<anchor xml:id="__lecturer_controller_8php_source_1l00015"/>00015 {
+<anchor xml:id="__lecturer_controller_8php_source_1l00016"/>00016 
+<anchor xml:id="__lecturer_controller_8php_source_1l00022"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a149eb92716c1084a935e04a8d95f7347">00022</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a149eb92716c1084a935e04a8d95f7347">index</link>()
+<anchor xml:id="__lecturer_controller_8php_source_1l00023"/>00023 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00024"/>00024 
+<anchor xml:id="__lecturer_controller_8php_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00026"/>00026 
+<anchor xml:id="__lecturer_controller_8php_source_1l00032"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">00032</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link>()
+<anchor xml:id="__lecturer_controller_8php_source_1l00033"/>00033 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00034"/>00034 
+<anchor xml:id="__lecturer_controller_8php_source_1l00035"/>00035 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00036"/>00036 
+<anchor xml:id="__lecturer_controller_8php_source_1l00043"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a11e3ba0b19c66fe5420010c81a25c29d">00043</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a11e3ba0b19c66fe5420010c81a25c29d">store</link>(<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&#32;$lecturer)
+<anchor xml:id="__lecturer_controller_8php_source_1l00044"/>00044 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00045"/>00045 
+<anchor xml:id="__lecturer_controller_8php_source_1l00046"/>00046 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00047"/>00047 
+<anchor xml:id="__lecturer_controller_8php_source_1l00054"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1aef518b84e7cd3ec8b14a97c1ecf9f5f9">00054</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1aef518b84e7cd3ec8b14a97c1ecf9f5f9">edit</link>(<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&#32;$lecturer)
+<anchor xml:id="__lecturer_controller_8php_source_1l00055"/>00055 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00056"/>00056 
+<anchor xml:id="__lecturer_controller_8php_source_1l00057"/>00057 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00058"/>00058 
+<anchor xml:id="__lecturer_controller_8php_source_1l00065"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1aac9ec90d59a95895ef6b1fcb84bf48a2">00065</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1aac9ec90d59a95895ef6b1fcb84bf48a2">update</link>(<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&#32;$lecturer)
+<anchor xml:id="__lecturer_controller_8php_source_1l00066"/>00066 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00067"/>00067 
+<anchor xml:id="__lecturer_controller_8php_source_1l00068"/>00068 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00069"/>00069 
+<anchor xml:id="__lecturer_controller_8php_source_1l00076"/><link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a5fa627f28c0b868fc604e31872823266">00076</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;<link linkend="_classapp_1_1_controllers_1_1_lecturer_controller_1a5fa627f28c0b868fc604e31872823266">destroy</link>(<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&#32;$lecturer)
+<anchor xml:id="__lecturer_controller_8php_source_1l00077"/>00077 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__lecturer_controller_8php_source_1l00078"/>00078 
+<anchor xml:id="__lecturer_controller_8php_source_1l00079"/>00079 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__lecturer_controller_8php_source_1l00080"/>00080 }
+</programlisting></section>

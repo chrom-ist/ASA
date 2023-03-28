@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__type__publications_controller_8php_source" xml:lang="ru">
+<title>Type_publicationsController.php</title>
+<indexterm><primary>app/Controllers/Type_publicationsController.php</primary></indexterm>
+<programlisting linenumbering="unnumbered"><anchor xml:id="__type__publications_controller_8php_source_1l00001"/>00001 &lt;?php
+<anchor xml:id="__type__publications_controller_8php_source_1l00002"/>00002 
+<anchor xml:id="__type__publications_controller_8php_source_1l00003"/>00003 <emphasis role="keyword">namespace&#32;</emphasis>app\Controllers;
+<anchor xml:id="__type__publications_controller_8php_source_1l00004"/>00004 
+<anchor xml:id="__type__publications_controller_8php_source_1l00005"/>00005 use&#32;<link linkend="_classapp_1_1_models_1_1_type__publications">app\Models\Type_publications</link>;
+<anchor xml:id="__type__publications_controller_8php_source_1l00006"/>00006 
+<anchor xml:id="__type__publications_controller_8php_source_1l00007"/><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller">00007</link> <emphasis role="keyword">class&#32;</emphasis><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller">Type_publicationsController</link>
+<anchor xml:id="__type__publications_controller_8php_source_1l00008"/>00008 {
+<anchor xml:id="__type__publications_controller_8php_source_1l00009"/>00009 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;index()
+<anchor xml:id="__type__publications_controller_8php_source_1l00010"/>00010 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00011"/>00011 
+<anchor xml:id="__type__publications_controller_8php_source_1l00012"/>00012 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00013"/>00013 
+<anchor xml:id="__type__publications_controller_8php_source_1l00014"/>00014 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;create()
+<anchor xml:id="__type__publications_controller_8php_source_1l00015"/>00015 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00016"/>00016 
+<anchor xml:id="__type__publications_controller_8php_source_1l00017"/>00017 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00018"/>00018 
+<anchor xml:id="__type__publications_controller_8php_source_1l00019"/>00019 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;store(<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link>&#32;$type_publications)
+<anchor xml:id="__type__publications_controller_8php_source_1l00020"/>00020 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00021"/>00021 
+<anchor xml:id="__type__publications_controller_8php_source_1l00022"/>00022 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00023"/>00023 
+<anchor xml:id="__type__publications_controller_8php_source_1l00024"/>00024 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;edit(<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link>&#32;$type_publications)
+<anchor xml:id="__type__publications_controller_8php_source_1l00025"/>00025 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00026"/>00026 
+<anchor xml:id="__type__publications_controller_8php_source_1l00027"/>00027 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00028"/>00028 
+<anchor xml:id="__type__publications_controller_8php_source_1l00029"/>00029 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;update(<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link>&#32;$type_publications)
+<anchor xml:id="__type__publications_controller_8php_source_1l00030"/>00030 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00031"/>00031 
+<anchor xml:id="__type__publications_controller_8php_source_1l00032"/>00032 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00033"/>00033 
+<anchor xml:id="__type__publications_controller_8php_source_1l00034"/>00034 &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">function</emphasis>&#32;destroy(<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link>&#32;$type_publications)
+<anchor xml:id="__type__publications_controller_8php_source_1l00035"/>00035 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__type__publications_controller_8php_source_1l00036"/>00036 
+<anchor xml:id="__type__publications_controller_8php_source_1l00037"/>00037 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__type__publications_controller_8php_source_1l00038"/>00038 }
+</programlisting></section>

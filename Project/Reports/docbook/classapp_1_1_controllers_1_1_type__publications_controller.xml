@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapp_1_1_controllers_1_1_type__publications_controller" xml:lang="ru">
+<title>Класс Type_publicationsController</title>
+<indexterm><primary>Type_publicationsController</primary></indexterm>
+<simplesect>
+    <title>Открытые члены    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1a149eb92716c1084a935e04a8d95f7347">index</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6">create</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1a2287c1b314c476339153641567b1b585">store</link> (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1af18c7d241989c74218a7d436026bec3d">edit</link> (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1a3324fb5553ea4324ead0fb5f398b1cfe">update</link> (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</para>
+</listitem>
+            <listitem><para><link linkend="_classapp_1_1_controllers_1_1_type__publications_controller_1a41bf543ec8b48eb738653986f7490f06">destroy</link> (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+<para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00007">7</link></para>
+</section>
+<section>
+<title>Методы</title>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6"/><section>
+    <title>create()</title>
+<indexterm><primary>create</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>create</secondary></indexterm>
+<para><computeroutput>create ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00014">14</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1a41bf543ec8b48eb738653986f7490f06"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>destroy (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00034">34</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1af18c7d241989c74218a7d436026bec3d"/><section>
+    <title>edit()</title>
+<indexterm><primary>edit</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>edit</secondary></indexterm>
+<para><computeroutput>edit (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00024">24</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1a149eb92716c1084a935e04a8d95f7347"/><section>
+    <title>index()</title>
+<indexterm><primary>index</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>index</secondary></indexterm>
+<para><computeroutput>index ( )</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00009">9</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1a2287c1b314c476339153641567b1b585"/><section>
+    <title>store()</title>
+<indexterm><primary>store</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>store</secondary></indexterm>
+<para><computeroutput>store (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00019">19</link></para>
+</section>
+<anchor xml:id="_classapp_1_1_controllers_1_1_type__publications_controller_1a3324fb5553ea4324ead0fb5f398b1cfe"/><section>
+    <title>update()</title>
+<indexterm><primary>update</primary><secondary>Type_publicationsController</secondary></indexterm>
+<indexterm><primary>Type_publicationsController</primary><secondary>update</secondary></indexterm>
+<para><computeroutput>update (<link linkend="_classapp_1_1_models_1_1_type__publications">Type_publications</link> $type_publications)</computeroutput></para><para>
+См. определение в файле <link linkend="__type__publications_controller_8php_source">Type_publicationsController.php</link> строка <link linkend="__type__publications_controller_8php_source_1l00029">29</link></para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+app/Controllers/Type_publicationsController.php</section>
+</section>

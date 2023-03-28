@@ -1,0 +1,171 @@
+.TH "FacultyController" 3 "Вт 28 Мар 2023" "Version 1.0.0" "Accounting-of-scientific-activity" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+FacultyController
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBindex\fP ()"
+.br
+.ti -1c
+.RI "\fBcreate\fP ()"
+.br
+.ti -1c
+.RI "\fBstore\fP (Request $request)"
+.br
+.ti -1c
+.RI "\fBedit\fP (\fBFaculty\fP $faculty)"
+.br
+.ti -1c
+.RI "\fBupdate\fP (\fBFaculty\fP $faculty)"
+.br
+.ti -1c
+.RI "\fBdestroy\fP (\fBFaculty\fP $faculty)"
+.br
+.ti -1c
+.RI "\fBindex\fP ()"
+.br
+.ti -1c
+.RI "\fBcreate\fP ()"
+.br
+.ti -1c
+.RI "\fBstore\fP (\fBPublication\fP $publication)"
+.br
+.ti -1c
+.RI "\fBedit\fP (\fBPublication\fP $publication)"
+.br
+.ti -1c
+.RI "\fBupdate\fP (\fBPublication\fP $publication)"
+.br
+.ti -1c
+.RI "\fBdestroy\fP (\fBPublication\fP $publication)"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Контроллер сущности Факультет\&.
+.PP
+Это класс контроллер сущности Факультет, он отвечает за обработку запросов связанных с изменением данных в таблице Факультет\&. 
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB14\fP
+.SH "Методы"
+.PP 
+.SS "create ()"
+Выводит форму для создания нового факультета
+.PP
+\fBВозвращает\fP
+.RS 4
+Response 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB32\fP
+.SS "create ()"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB14\fP
+.SS "destroy (\fBFaculty\fP $faculty)"
+Удаляет данные о факультете из БД
+.PP
+\fBАргументы\fP
+.RS 4
+\fI$department\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB77\fP
+.SS "destroy (\fBPublication\fP $publication)"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB34\fP
+.SS "edit (\fBFaculty\fP $faculty)"
+Показывает форму редактирования факультета
+.PP
+\fBАргументы\fP
+.RS 4
+\fI$department\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Response 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB55\fP
+.SS "edit (\fBPublication\fP $publication)"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB24\fP
+.SS "index ()"
+Выводит список факультетов\&.
+.PP
+\fBВозвращает\fP
+.RS 4
+\\Illuminate\\Http\\Response 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB22\fP
+.SS "index ()"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB9\fP
+.SS "store (\fBPublication\fP $publication)"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB19\fP
+.SS "store (Request $request)"
+Сохраняет запись о новом факультете в БД\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fI$request\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+Response 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB43\fP
+.SS "update (\fBFaculty\fP $faculty)"
+Изменяет данные о факультете в БД\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fI$department\fP 
+.RE
+.PP
+\fBВозвращает\fP
+.RS 4
+void 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBFacultyContreller\&.php\fP строка \fB66\fP
+.SS "update (\fBPublication\fP $publication)"
+
+.PP
+См\&. определение в файле \fBPublicationController\&.php\fP строка \fB29\fP
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Accounting-of-scientific-activity из исходного текста\&.

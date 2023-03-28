@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="_department_controller_8php" kind="file" language="PHP">
+    <compoundname>DepartmentController.php</compoundname>
+    <innerclass refid="classapp_1_1_controllers_1_1_department_controller" prot="public">app::Controllers::DepartmentController</innerclass>
+    <innernamespace refid="namespaceapp_1_1_controllers">app::Controllers</innernamespace>
+    <innernamespace refid="namespaceapp_1_1_models_1_1_department">app::Models::Department</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">app\Controllers;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">use<sp/><ref refid="classapp_1_1_models_1_1_department" kindref="compound">app\Models\Department</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classapp_1_1_controllers_1_1_department_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classapp_1_1_controllers_1_1_department_controller" kindref="compound">DepartmentController</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21" refid="classapp_1_1_controllers_1_1_department_controller_1a149eb92716c1084a935e04a8d95f7347" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1a149eb92716c1084a935e04a8d95f7347" kindref="member">index</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$department<sp/>=<sp/>Department::all();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;department.index&apos;</highlight><highlight class="normal">,<sp/>[</highlight><highlight class="stringliteral">&apos;department&apos;</highlight><highlight class="normal"><sp/>=&gt;<sp/>$department]);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classapp_1_1_controllers_1_1_department_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" kindref="member">create</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>view(</highlight><highlight class="stringliteral">&apos;department.create&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classapp_1_1_controllers_1_1_department_controller_1a9ef485163104597c12185b53cdacf638" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1a9ef485163104597c12185b53cdacf638" kindref="member">store</ref>(Request<sp/>$request)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classapp_1_1_controllers_1_1_department_controller_1acc0f67b15a4c5bd365f9006bd16ec36f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1acc0f67b15a4c5bd365f9006bd16ec36f" kindref="member">edit</ref>(<ref refid="classapp_1_1_models_1_1_department" kindref="compound">Department</ref><sp/>$department)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classapp_1_1_controllers_1_1_department_controller_1a68bc7c2070ac332d449c2f49da7fb8ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1a68bc7c2070ac332d449c2f49da7fb8ac" kindref="member">update</ref>(<ref refid="classapp_1_1_models_1_1_department" kindref="compound">Department</ref><sp/>$department)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classapp_1_1_controllers_1_1_department_controller_1a35480421de636fda761d2d01d37b7977" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="classapp_1_1_controllers_1_1_department_controller_1a35480421de636fda761d2d01d37b7977" kindref="member">destroy</ref>(<ref refid="classapp_1_1_models_1_1_department" kindref="compound">Department</ref><sp/>$department)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="app/Controllers/DepartmentController.php"/>
+  </compounddef>
+</doxygen>

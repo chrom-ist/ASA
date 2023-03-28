@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_d422163b96683743ed3963d4aac17747" kind="dir">
+    <compoundname>app</compoundname>
+    <innerdir refid="dir_db1e46b69611da9e51496a26f1a8ca7b">app/Controllers</innerdir>
+    <innerdir refid="dir_fc6199fba97859a095e1d9a5aa5fae23">app/Models</innerdir>
+    <innerdir refid="dir_71aab6f90b0412e948eb651ee031ad84">app/Views</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/"/>
+  </compounddef>
+</doxygen>

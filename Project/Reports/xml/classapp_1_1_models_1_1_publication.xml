@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="classapp_1_1_models_1_1_publication" kind="class" language="PHP" prot="public">
+    <compoundname>app::Models::Publication</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classapp_1_1_models_1_1_publication_1ae8876a14058f368335baccf35af4a22b" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$table</definition>
+        <argsstring></argsstring>
+        <name>$table</name>
+        <qualifiedname>app\Models\Publication\$table</qualifiedname>
+        <initializer>= &apos;Publications&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Models/Publications.php" line="19" column="15" bodyfile="app/Models/Publications.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Модель сущности Публикация.</para>
+<para>Описывает поля и методы используемые для хранения и управления данными о публикации. </para>
+    </detaileddescription>
+    <location file="app/Models/Publications.php" line="12" column="1" bodyfile="app/Models/Publications.php" bodystart="13" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classapp_1_1_models_1_1_publication_1ae8876a14058f368335baccf35af4a22b" prot="protected" virt="non-virtual"><scope>app::Models::Publication</scope><name>$table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

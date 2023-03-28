@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapp_1_1_models_1_1_faculty" xml:lang="ru">
+<title>Класс Faculty</title>
+<indexterm><primary>Faculty</primary></indexterm>
+<simplesect>
+    <title>Защищенные данные    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapp_1_1_models_1_1_faculty_1ae8876a14058f368335baccf35af4a22b">$table</link> = &apos;<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link>&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Модель сущности Кафедра.</para>
+
+<para>Описывает поля и методы используемые для хранения и управления данными о факультете </para>
+<para>
+См. определение в файле <link linkend="__faculty_8php_source">Faculty.php</link> строка <link linkend="__faculty_8php_source_1l00014">14</link></para>
+</section>
+<section>
+<title>Поля</title>
+<anchor xml:id="_classapp_1_1_models_1_1_faculty_1ae8876a14058f368335baccf35af4a22b"/><section>
+    <title>$table</title>
+<indexterm><primary>$table</primary><secondary>Faculty</secondary></indexterm>
+<indexterm><primary>Faculty</primary><secondary>$table</secondary></indexterm>
+<para><computeroutput>$table = &apos;<link linkend="_classapp_1_1_models_1_1_faculty">Faculty</link>&apos;<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+См. определение в файле <link linkend="__faculty_8php_source">Faculty.php</link> строка <link linkend="__faculty_8php_source_1l00021">21</link></para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+app/Models/Faculty.php</section>
+</section>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="classapp_1_1_controllers_1_1_post_controller" kind="class" language="PHP" prot="public">
+    <compoundname>app::Controllers::PostController</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>index</definition>
+        <argsstring>()</argsstring>
+        <name>index</name>
+        <qualifiedname>app\Controllers\PostController\index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="9" column="21" bodyfile="app/Controllers/PostController.php" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>create</definition>
+        <argsstring>()</argsstring>
+        <name>create</name>
+        <qualifiedname>app\Controllers\PostController\create</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="14" column="21" bodyfile="app/Controllers/PostController.php" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a609c095aa4785d63d53a88ccb822714a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>store</definition>
+        <argsstring>(Post $post)</argsstring>
+        <name>store</name>
+        <qualifiedname>app\Controllers\PostController\store</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_post" kindref="compound">Post</ref></type>
+          <declname>$post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="19" column="21" bodyfile="app/Controllers/PostController.php" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a6801b4349781348e1dbec2cf4df47425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>edit</definition>
+        <argsstring>(Post $post)</argsstring>
+        <name>edit</name>
+        <qualifiedname>app\Controllers\PostController\edit</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_post" kindref="compound">Post</ref></type>
+          <declname>$post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="24" column="21" bodyfile="app/Controllers/PostController.php" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a178d0ab55ef8ef4af5fb3224fc5b68f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>(Post $post)</argsstring>
+        <name>update</name>
+        <qualifiedname>app\Controllers\PostController\update</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_post" kindref="compound">Post</ref></type>
+          <declname>$post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="29" column="21" bodyfile="app/Controllers/PostController.php" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classapp_1_1_controllers_1_1_post_controller_1a3438db6eb983e0f1cea913eef2ac0796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>destroy</definition>
+        <argsstring>(Post $post)</argsstring>
+        <name>destroy</name>
+        <qualifiedname>app\Controllers\PostController\destroy</qualifiedname>
+        <param>
+          <type><ref refid="classapp_1_1_models_1_1_post" kindref="compound">Post</ref></type>
+          <declname>$post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="app/Controllers/PostController.php" line="34" column="21" bodyfile="app/Controllers/PostController.php" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="app/Controllers/PostController.php" line="7" column="1" bodyfile="app/Controllers/PostController.php" bodystart="8" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a435e7d7525d4bcd0ed5e34a469f3adf6" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>create</name></member>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a3438db6eb983e0f1cea913eef2ac0796" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>destroy</name></member>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a6801b4349781348e1dbec2cf4df47425" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>edit</name></member>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a149eb92716c1084a935e04a8d95f7347" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>index</name></member>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a609c095aa4785d63d53a88ccb822714a" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>store</name></member>
+      <member refid="classapp_1_1_controllers_1_1_post_controller_1a178d0ab55ef8ef4af5fb3224fc5b68f8" prot="public" virt="non-virtual"><scope>app::Controllers::PostController</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

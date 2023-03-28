@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapp_1_1_models_1_1_lecturer" xml:lang="ru">
+<title>Класс Lecturer</title>
+<indexterm><primary>Lecturer</primary></indexterm>
+<simplesect>
+    <title>Защищенные данные    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapp_1_1_models_1_1_lecturer_1ae8876a14058f368335baccf35af4a22b">$table</link> = &apos;<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Подробное описание</title>
+
+<para>Модель сущности Преподаватель.</para>
+
+<para>Описывает поля и методы используемые для хранения и управления данными о преподавателе. </para>
+<para>
+См. определение в файле <link linkend="__lecturer_8php_source">Lecturer.php</link> строка <link linkend="__lecturer_8php_source_1l00012">12</link></para>
+</section>
+<section>
+<title>Поля</title>
+<anchor xml:id="_classapp_1_1_models_1_1_lecturer_1ae8876a14058f368335baccf35af4a22b"/><section>
+    <title>$table</title>
+<indexterm><primary>$table</primary><secondary>Lecturer</secondary></indexterm>
+<indexterm><primary>Lecturer</primary><secondary>$table</secondary></indexterm>
+<para><computeroutput>$table = &apos;<link linkend="_classapp_1_1_models_1_1_lecturer">Lecturer</link>&apos;<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+См. определение в файле <link linkend="__lecturer_8php_source">Lecturer.php</link> строка <link linkend="__lecturer_8php_source_1l00019">19</link></para>
+</section>
+<para>
+Объявления и описания членов класса находятся в файле:</para>
+app/Models/Lecturer.php</section>
+</section>
