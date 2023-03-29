@@ -8,7 +8,7 @@ namespace app\Models;
  * 
  * Класс описывает сущность типа публикации.
  * 
- * @author Kovalenko Alexander <ilondontami@gmail.com>
+ * @author Beloshitskiy Roman <ilondontami@gmail.com>
  * @version 1.0.0
  */
 class Type_publications
