@@ -16,5 +16,5 @@ class Department
      *
      * @var string
      */
-    protected $table = 'Department';
+    protected $table = 'D%epar#@tm&ent';
 }
