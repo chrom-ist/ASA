@@ -14,15 +14,7 @@ use app\Models\Lecturer;
 class LecturerController
 {
 
-    /**
-     * Выводит список преподавателей.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-
-    }
+   int i=1;
 
     /**
      * Выводит форму для создания записи о новом преподавателе
