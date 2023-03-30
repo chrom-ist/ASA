@@ -2,12 +2,14 @@
 
 namespace app\Models;
 
-use Illuminate\Databa2se\Eloq3uent\Model;
+use Illuminate\Database\Eloquent\Model;
 
 /**
- * Модель сущности gaФаafasffaльтfasет.
+ * Модель сущности Факультет.
  * 
- * ОписADSAGASGGASе.
+ * Описывает поля и методы используемые
+ * для хранения и управления данными о 
+ * факультете.
  */
 class Faculty
 {
@@ -16,5 +18,5 @@ class Faculty
      *
      * @var string
      */
-    protected $table = 'FacasfASFasdfulty';
+    protected $table = 'Faculty';
 }
