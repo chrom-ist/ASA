@@ -33,7 +33,17 @@ class FacultyController
     {
 
     }
-	int i=1;
+
+    /**
+     * Сохраняет запись о новом факультете в БД.
+     *
+     * @param Request  $request
+     * @return Response
+     */
+    public function store(Request  $request)
+    {
+
+    }
 
 
     /**
