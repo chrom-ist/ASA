@@ -21,7 +21,7 @@ class DepartmentController
     public function index()
     {
         $department = Department::all();
-        return view('dep.index', ['department' => $department]);
+        return view('department.index', ['department' => $department]);
     }
 
     /**
@@ -45,6 +45,16 @@ class DepartmentController
 
     }
 
+    /**
+     * Показывает форму редактирования рессурса
+     *
+     * @param Department $department
+     * @return Response
+     */
+    public function edit(Department $department)
+    {
+
+    }
 
     /**
      * Изменяет данные о кафедре в БД.
