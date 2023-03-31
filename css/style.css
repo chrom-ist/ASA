@@ -42,6 +42,10 @@
     text-decoration: none;
 }
 
+.nav a span{
+    margin-left: 10%;
+}
+
 .sys-info{
     /* position: absolute; */
     bottom: 2%;
